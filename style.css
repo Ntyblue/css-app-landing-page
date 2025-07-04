@@ -1,1 +1,114 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+/* Navbar and Hero Section */
+.nav-hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: lightcyan; */
+}
+
+.navbar {
+    width: 96vw;
+    height: 128px;
+    padding: 12px 80px;
+    margin: 2vw;
+    display: flex;
+    background-color: white;
+    border-radius: 99px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        .logo-dot {
+            color: #5E44FF;
+        }
+        .nav-link {
+            text-decoration: none;
+            color: #000;
+            margin: 16px 24px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .nav-link:hover {
+            color: #5E44FF;
+            cursor: pointer;
+        }
+
+.hero-section {
+    width: 100vw;
+    margin: 60px;
+    /* background-color: #f0f0f0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+    .hero-badge {
+        background-color: rgba(94, 68, 255, 0.1);
+        color: #5E44FF;
+        padding: 8px 20px;
+        border-radius: 20px;
+        font-size: 1rem;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        /* background-color: #fff; */
+    }
+    .hero-title {
+        /* background-color: khaki; */
+        font-size: 5rem;
+        font-weight: 800;
+        letter-spacing: -2%;
+
+    }
+        .hero-highlight {
+            color: #5E44FF;
+        }
+    
+        .hero-subtitle {
+            /* background-color: #fff; */
+            font-weight: 400;
+        }
+
+        .hero-cta {
+            background-color: #000;
+            color: #fff;
+            padding: 16px 36px;
+            border-radius: 16px;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero-cta:hover {
+            background-color: lightgrey;
+            color: black;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+/* Navbar and Hero Section */
