@@ -1,1 +1,94 @@
-/* Start coding here */
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5fb;
+    height: 500px;
+}
+
+.features-card {
+    width: 360px;
+    height: 220px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+    margin: 20px;
+}
+
+.icon {
+    background-color: #eff5fc;
+    color: #f45fff;
+    border-radius: 16px;
+    padding: 10px;
+    width: 60px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.features-card.workflows {
+    background-color: #d8e4f7;
+    color: black;
+}
+
+.features-card.workflows h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.features-card.workflows p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #7b8293;
+}
+
+.features-card.performance {
+    background-color: #d9dffd;
+    color: black;
+}
+
+.features-card.performance h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.features-card.performance p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #7b8293;
+}
+
+.features-card.interface {
+    background-color: #e8ddf6;
+    color: black;
+}
+
+.features-card.interface h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.features-card.interface p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #7b8293;
+}
+
