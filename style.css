@@ -10,24 +10,26 @@
     justify-content: center;
     align-items: center;
     background-color: #f5f5fb;
-    height: 500px;
+    height: 968px;
+    width: 100%;
+    padding: 120px 120px 140px 120px;
 }
 
 .features-card {
-    width: 360px;
-    height: 220px;
-    border-radius: 16px;
+    width: 387px;
+    height: 272px;
+    border-radius: 24px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 24px;
+    padding: 28px;
     margin: 20px;
 }
 
 .icon {
     background-color: #eff5fc;
-    color: #f45fff;
+    color: #5E44FF;
     border-radius: 16px;
     padding: 10px;
     width: 60px;
@@ -35,60 +37,69 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .features-card.workflows {
-    background-color: #d8e4f7;
+    background-color: #D7E5F6;
+;
     color: black;
 }
 
 .features-card.workflows h2 {
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-top: 40px;
 }
 
 .features-card.workflows p {
     font-size: 16px;
-    font-weight: 400;
-    margin-top: 10px;
+    line-height: 24px;
+    font-weight: 500;
     color: #7b8293;
+    margin-top: 10px;
 }
 
 .features-card.performance {
-    background-color: #d9dffd;
+    background-color: #D8E0FC;
     color: black;
 }
 
 .features-card.performance h2 {
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-top: 40px;
 }
 
 .features-card.performance p {
     font-size: 16px;
-    font-weight: 400;
-    margin-top: 10px;
+    line-height: 24px;
+    font-weight: 500;
     color: #7b8293;
+    margin-top: 10px;
 }
 
 .features-card.interface {
-    background-color: #e8ddf6;
+    background-color: #E8DCF6;
+    ;
     color: black;
 }
 
 .features-card.interface h2 {
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-top: 40px;
 }
 
 .features-card.interface p {
     font-size: 16px;
-    font-weight: 400;
-    margin-top: 10px;
+    line-height: 24px;
+    font-weight: 500;
     color: #7b8293;
+    margin-top: 10px;
 }
 
